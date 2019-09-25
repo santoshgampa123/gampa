@@ -1,6 +1,8 @@
 pipeline {
-    agent any
-     stages {
+node('Slave1') {
+    // some block
+}
+	stages {
         stage('checkout') {
             steps {
                 echo 'Checkingout code..'
