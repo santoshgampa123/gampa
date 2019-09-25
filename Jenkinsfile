@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Building..'
 				tool name: 'mvn362', type: 'maven'
-				mvn clean package
+				sh 'mvn clean package'
             }
         }
         stage('Test') {
@@ -26,5 +26,5 @@ pipeline {
             }
         }
     }
-}
+	}
 }
