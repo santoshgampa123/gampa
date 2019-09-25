@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Building..'
 				tool name: 'mvn362', type: 'maven'
-				sh 'mvn clean package'
+				sh '/bin/mvn clean package'
             }
         }
         stage('Test') {
