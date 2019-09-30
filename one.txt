@@ -1,5 +1,5 @@
 this is adding in the release1 branch
-this is adding in relase branch
+this is adding in release branch
 
 hi this is one.txt file in release branch  
 #this is in branch1 line
